@@ -55,7 +55,7 @@ namespace ComputerShop
 
         private void button1_Click(object sender, EventArgs e)
         { 
-            COL = new System.Windows.Forms.DataGridViewColumn();
+           /* COL = new System.Windows.Forms.DataGridViewColumn();
             switch (listBox1.SelectedIndex)
             {
                 case 0:
@@ -76,7 +76,7 @@ namespace ComputerShop
                 System.ComponentModel.ListSortDirection.Ascending);
             else
                 pCDataGridView.Sort(COL,
-                System.ComponentModel.ListSortDirection.Descending);
+                System.ComponentModel.ListSortDirection.Descending);*/
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -91,7 +91,7 @@ namespace ComputerShop
 
         private void button4_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < pCDataGridView.ColumnCount - 1; i++)
+           /* for (int i = 0; i < pCDataGridView.ColumnCount - 1; i++)
             {
                 for (int j = 0; j < pCDataGridView.RowCount - 1; j++)
                 {
@@ -111,7 +111,7 @@ namespace ComputerShop
 
                     }
                 }
-            }
+            }*/
         }
 
         private void button5_Click(object sender, EventArgs e)
