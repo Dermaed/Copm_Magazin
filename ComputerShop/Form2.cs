@@ -12,7 +12,6 @@ namespace ComputerShop
 {
     public partial class frmDesktop : Form
     {
-        private tablefrm tablefrm;
 
         public frmDesktop()
         {
@@ -73,8 +72,7 @@ namespace ComputerShop
 
         private void button8_Click(object sender, EventArgs e)
         {
-            tablefrm = new tablefrm();
-            tablefrm.Visible = true;
+
         }
     }
 }
