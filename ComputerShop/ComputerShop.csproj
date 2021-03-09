@@ -83,12 +83,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>St01DataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="tablefrm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="tablefrm.Designer.cs">
-      <DependentUpon>tablefrm.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -113,9 +107,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="tablefrm.resx">
-      <DependentUpon>tablefrm.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
